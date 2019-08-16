@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f0f89e7-811e-4af0-9324-e1d5d1d140a1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shop-common/target/" />
+    <ignored path="$PROJECT_DIR$/goods-management/target/" />
+    <ignored path="$PROJECT_DIR$/goods-service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/back-management/target/" />
+    <ignored path="$PROJECT_DIR$/house-management/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DataSynServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/impl/DataSynServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+              <folding>
+                <element signature="e#2824#2825#0" expanded="true" />
+                <element signature="e#2900#2901#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseDataHandleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/controller/HouseDataHandleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/impl/HouseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseIndexTemplate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/HouseIndexTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="House.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/House.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="98" selection-start-line="98" selection-end-line="101" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseDetail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/HouseDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wel</find>
+      <find>/h-ui/css/H-ui.min.css</find>
+      <find>封面</find>
+      <find>200</find>
+      <find>picture_edit</find>
+      <find>product_show</find>
+      <find>add</find>
+      <find>distanceToSubway</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/back-management/src/test/java/com/ncut/backmanagement/config/ElasticSearchConfigTest.java" />
+        <option value="$PROJECT_DIR$/back-management/src/test/java/com/ncut/backmanagement/config/ElasticSearchConfigTest.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/config/ElasticSearchConfig.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/tool/MybatisPlusGenerator.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/domain/HouseDetail.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/dao/HouseDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/dao/HouseMapper.xml" />
+        <option value="$PROJECT_DIR$/back-management/pom.xml" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/IHouseDetailService.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/impl/HouseDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/dataSynService.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/dao/HouseDetailMapper.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/dao/HouseMapper.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/IHouseService.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/domain/HouseTagForEs.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/impl/dataSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/impl/HouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/IHouseService.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/impl/HouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/impl/dataSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/dataSynService.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/DataSycService.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/DataSynService.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/service/impl/DataSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/controller/houseDataHandleController.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/dao/HouseMapper.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/dao/HouseDetailMapper.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/BackManagementApplication.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/interceptor/LoginConfig.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/controller/GoodsManagementController.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/config/ElasticSearchConfig.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/java/com/ncut/backmanagement/controller/HouseDataHandleController.java" />
+        <option value="$PROJECT_DIR$/back-management/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/back-management/pom.xml" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/test/java/com/ncut/backmanagement/config/ElasticSearchConfigTest.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/config/ElasticSearchConfig.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/dao/HouseMapper.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/dao/HouseDetailMapper.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/BackManagementApplication.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/controller/GoodsManagementController.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/pom.xml" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/DataSynService.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/IHouseService.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/controller/HouseDataHandleController.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/impl/DataSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/resources/db/esInstall.json" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/HouseIndexTemplate.java" />
+        <option value="$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/impl/HouseServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/software/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="back-management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="back-management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="715" />
+    <option name="width" value="1415" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xia-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xia-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="back-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/5.5.2/transport-7.0.0.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ncut.backmanagement.config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xia-shop\back-management\src\main\resources\db" />
+      <recent name="F:\xia-shop\back-management\src\main\java\com\ncut\backmanagement\controller" />
+      <recent name="F:\xia-shop\back-management\src\main\java\com\ncut\backmanagement" />
+      <recent name="F:\xia-shop\back-management\src\main\resources" />
+      <recent name="F:\xia-shop\back-management\src\main\java\com\ncut\backmanagement\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ncut.backmanagement.controller" />
+      <recent name="com.ncut.backmanagement.tool" />
+      <recent name="com.ncut.goodsmanagement" />
+      <recent name="com.ncut.goodsserviceconsumer.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xia-shop\back-management\src\main\resources\mybatis" />
+      <recent name="F:\xia-shop\back-management\src\main\resources\templates\huiAdmin" />
+      <recent name="F:\xia-shop\back-management\src\main\java\com\ncut\backmanagement\controller" />
+      <recent name="F:\xia-shop\back-management\src\main\java\com\ncut\backmanagement" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackManagementApplication">
+    <configuration name="MybatisPlusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ncut.backmanagement.tool.MybatisPlusGenerator" />
+      <module name="back-management" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ncut.backmanagement.tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ElasticSearchConfigTest.getData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="back-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ncut.backmanagement.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ncut.backmanagement.config" />
+      <option name="MAIN_CLASS_NAME" value="com.ncut.backmanagement.config.ElasticSearchConfigTest" />
+      <option name="METHOD_NAME" value="getData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ElasticSearchConfigTest.getMultiData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="back-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ncut.backmanagement.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ncut.backmanagement.config" />
+      <option name="MAIN_CLASS_NAME" value="com.ncut.backmanagement.config.ElasticSearchConfigTest" />
+      <option name="METHOD_NAME" value="getMultiData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ElasticSearchConfigTest.updateBulkData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="back-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ncut.backmanagement.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ncut.backmanagement.config" />
+      <option name="MAIN_CLASS_NAME" value="com.ncut.backmanagement.config.ElasticSearchConfigTest" />
+      <option name="METHOD_NAME" value="updateBulkData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ElasticSearchConfigTest.updateBulkNewData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="back-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ncut.backmanagement.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ncut.backmanagement.config" />
+      <option name="MAIN_CLASS_NAME" value="com.ncut.backmanagement.config.ElasticSearchConfigTest" />
+      <option name="METHOD_NAME" value="updateBulkNewData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="manageSystem" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="BackManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="back-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ncut.backmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ncut.backmanagement.BackManagementApplication" />
+    </configuration>
+    <configuration name="GoodsManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="goods-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ncut.goodsmanagement.GoodsManagementApplication" />
+    </configuration>
+    <configuration name="GoodsServiceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="goods-service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ncut.goodsserviceconsumer.GoodsServiceConsumerApplication" />
+    </configuration>
+    <configuration name="HouseManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="house-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ncut.housemanagement.HouseManagementApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GoodsManagementApplication" />
+      <item itemvalue="Spring Boot.GoodsServiceConsumerApplication" />
+      <item itemvalue="Spring Boot.HouseManagementApplication" />
+      <item itemvalue="JUnit.ElasticSearchConfigTest.updateBulkNewData" />
+      <item itemvalue="JUnit.ElasticSearchConfigTest.updateBulkData" />
+      <item itemvalue="Application.MybatisPlusGenerator" />
+      <item itemvalue="JUnit.ElasticSearchConfigTest.getMultiData" />
+      <item itemvalue="Spring Boot.BackManagementApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BackManagementApplication" />
+        <item itemvalue="JUnit.ElasticSearchConfigTest.getMultiData" />
+        <item itemvalue="Application.MybatisPlusGenerator" />
+        <item itemvalue="JUnit.ElasticSearchConfigTest.updateBulkData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f0f89e7-811e-4af0-9324-e1d5d1d140a1" name="Default" comment="" />
+      <created>1558495861460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558495861460</updated>
+      <workItem from="1558495863731" duration="837000" />
+      <workItem from="1558505550355" duration="12000" />
+      <workItem from="1558505585927" duration="733000" />
+      <workItem from="1558507464861" duration="4113000" />
+      <workItem from="1558573816620" duration="2792000" />
+      <workItem from="1558660723796" duration="2538000" />
+      <workItem from="1559008279036" duration="1144000" />
+      <workItem from="1559013145227" duration="485000" />
+      <workItem from="1559024470740" duration="215000" />
+      <workItem from="1559026521105" duration="1220000" />
+      <workItem from="1559097806789" duration="1783000" />
+      <workItem from="1559120905787" duration="4062000" />
+      <workItem from="1559200241661" duration="9577000" />
+      <workItem from="1559265039540" duration="9401000" />
+      <workItem from="1559527277576" duration="14000" />
+      <workItem from="1565080403836" duration="1143000" />
+      <workItem from="1565081669240" duration="2766000" />
+      <workItem from="1565099522025" duration="7340000" />
+      <workItem from="1565141845260" duration="305000" />
+      <workItem from="1565144155300" duration="3118000" />
+      <workItem from="1565148223534" duration="1801000" />
+      <workItem from="1565169174465" duration="3621000" />
+      <workItem from="1565186465387" duration="2602000" />
+      <workItem from="1565227110825" duration="304000" />
+      <workItem from="1565315845337" duration="3785000" />
+      <workItem from="1565319646415" duration="9471000" />
+      <workItem from="1565339181267" duration="980000" />
+      <workItem from="1565340177379" duration="427000" />
+      <workItem from="1565340629183" duration="2874000" />
+      <workItem from="1565359567583" duration="1416000" />
+      <workItem from="1565361275781" duration="303000" />
+      <workItem from="1565361602019" duration="2210000" />
+      <workItem from="1565400166176" duration="77000" />
+      <workItem from="1565407712589" duration="7062000" />
+      <workItem from="1565572142833" duration="2536000" />
+      <workItem from="1565601131606" duration="1212000" />
+      <workItem from="1565685254170" duration="4701000" />
+      <workItem from="1565690285272" duration="613000" />
+      <workItem from="1565771773063" duration="5486000" />
+      <workItem from="1565796357703" duration="2945000" />
+      <workItem from="1565833341208" duration="21701000" />
+      <workItem from="1565877176369" duration="1220000" />
+      <workItem from="1565919686965" duration="8473000" />
+      <workItem from="1565929088263" duration="14674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ElasticSearchConfigTest_updateBulkNewData - 2019.08.15 at 15h 22m 26s.xml">
+      <configuration name="ElasticSearchConfigTest.updateBulkNewData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_deleteBulkData - 2019.08.15 at 15h 25m 06s.xml">
+      <configuration name="ElasticSearchConfigTest.deleteBulkData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_addBulkNewData - 2019.08.15 at 15h 25m 27s.xml">
+      <configuration name="ElasticSearchConfigTest.addBulkNewData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_updateBulkData - 2019.08.15 at 15h 25m 33s.xml">
+      <configuration name="ElasticSearchConfigTest.updateBulkData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_updateBulkData - 2019.08.15 at 15h 25m 54s.xml">
+      <configuration name="ElasticSearchConfigTest.updateBulkData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_getMultiData - 2019.08.16 at 10h 35m 26s.xml">
+      <configuration name="ElasticSearchConfigTest.getMultiData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_getData - 2019.08.16 at 10h 52m 46s.xml">
+      <configuration name="ElasticSearchConfigTest.getData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_getData - 2019.08.16 at 10h 52m 59s.xml">
+      <configuration name="ElasticSearchConfigTest.getData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_getMultiData - 2019.08.16 at 11h 59m 48s.xml">
+      <configuration name="ElasticSearchConfigTest.getMultiData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticSearchConfigTest_getMultiData - 2019.08.16 at 12h 03m 08s.xml">
+      <configuration name="ElasticSearchConfigTest.getMultiData" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="154092000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50067025" side_tool="true" weight="0.50737464" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.24329759" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5442478" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32890856" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.6696165" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297587" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890856" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="24" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/Header.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/6.3.2/elasticsearch-rest-high-level-client-6.3.2.jar!/org/elasticsearch/client/RestHighLevelClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="178" column="81" selection-start-line="178" selection-start-column="81" selection-end-line="178" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar!/org/apache/http/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/get/MultiGetResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="142" column="33" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.4.3/elasticsearch-x-content-6.4.3.jar!/org/elasticsearch/common/xcontent/XContentParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/ActionRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar!/org/apache/http/NameValuePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/get/MultiGetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="333" column="18" selection-start-line="333" selection-start-column="18" selection-end-line="333" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/search/SearchPhase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/index/IndexRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/index/IndexRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/bulk/BulkItemRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/bulk/BulkRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/IHouseDetailService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/6.3.2/elasticsearch-rest-high-level-client-6.3.2-sources.jar!/org/elasticsearch/client/RestHighLevelClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="257" column="30" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/HouseTagForEs.java" />
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/DataSynService.java" />
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/resources/mybatis/HouseDetailMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../xia-shop/goods-management/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/resources/application-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/../xia-shop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/resources/mybatis/HouseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/tool/MybatisPlusGenerator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3.1/mybatis-plus-support-2.3.1.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/test/java/com/ncut/backmanagement/config/ElasticSearchConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2353">
+          <caret line="306" column="1" selection-start-line="306" selection-start-column="1" selection-end-line="306" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/interceptor/LoginIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/interceptor/LoginConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/config/ElasticSearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/dao/HouseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/dao/HouseDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/impl/HouseDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/bulk/BulkResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2888">
+          <caret line="48" column="50" lean-forward="true" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.1/hutool-all-4.6.1.jar!/cn/hutool/json/JSONUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.1/hutool-all-4.6.1-sources.jar!/cn/hutool/json/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/BackManagementApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3-sources.jar!/org/elasticsearch/action/update/UpdateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="569" column="25" selection-start-line="569" selection-start-column="25" selection-end-line="569" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/DataSynService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/IHouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/HouseDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/resources/db/esInstall.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/controller/GoodsManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/impl/DataSynServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding>
+            <element signature="e#2824#2825#0" expanded="true" />
+            <element signature="e#2900#2901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/controller/HouseDataHandleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="98" selection-start-line="98" selection-end-line="101" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/service/impl/HouseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xia-shop/back-management/src/main/java/com/ncut/backmanagement/domain/HouseIndexTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>back-management</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

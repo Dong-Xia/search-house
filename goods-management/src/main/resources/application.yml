@@ -1,0 +1,36 @@
+server:
+  port: 8088
+# Dubbo 配置
+dubbo:
+  application:
+    name: goods-service-provider
+  registry:
+    address: 10.4.9.20:2181
+    protocol: zookeeper
+  protocol:
+    name: dubbo
+  port: 20880
+  scan: com.ncut.goodsmanagement.service.GoodsManagementService
+  service:
+    ref: goodsService
+
+
+#mybatisplus config
+mybatis-plus:
+  mapper-locations: classpath*:/mybatis/*.xml
+  type-aliases-package: com.ncut.xia.redproduct.domain
+  global-config.id-type: 1
+  global-config.db-column-underline: true
+  global-config.refresh-mapper: true
+  global-config.capital-mode: true
+  configuration.call-setters-on-nulls: true
+  configuration.map-underscore-to-camel-case: true
+
+
+spring:
+    # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/redpacket?characterEncoding=utf8&characterSetResults=utf8&useUnicode=false&rewriteBatchedStatements=true&autoReconnect=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 891204

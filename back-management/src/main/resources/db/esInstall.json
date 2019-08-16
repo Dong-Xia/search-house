@@ -1,0 +1,95 @@
+{
+    "settings": {
+        "number_of_shards": 5,
+        "number_of_replicas": 1
+    },
+    "mappings": {
+        "house": {
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "title": {
+                    "type": "text"
+                },
+                "price": {
+                    "type": "integer"
+                },
+                "area": {
+                    "type": "integer"
+                },
+                "room": {
+                    "type": "integer"
+                },
+                "floor": {
+                    "type": "integer"
+                },
+                "totalFloor": {
+                    "type": "integer"
+                },
+                "buildYear": {
+                    "type": "integer"
+                },
+                "status": {
+                    "type": "integer"
+                },
+                "cityEnName": {
+                    "type": "keyword"
+                },
+                "regionEnName": {
+                    "type": "keyword"
+                },
+                "direction": {
+                    "type": "integer"
+                },
+                "parlour": {
+                    "type": "integer"
+                },
+                "district": {
+                    "type": "keyword"
+                },
+                "distanceToSubway": {
+                    "type": "integer"
+                },
+                "subwayLineName": {
+                    "type": "keyword"
+                },
+                "subwayStationName": {
+                    "type": "keyword"
+                },
+                "tags": {
+                    "type": "text"
+                },
+                "bathroom": {
+                    "type": "integer"
+                },
+                "street": {
+                    "type": "keyword"
+                },
+                "createTime": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis"
+                },
+                "lastUpdateTime": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis"
+                },
+                "description": {
+                    "type": "text"
+                },
+                "layoutDesc": {
+                    "type": "text"
+                },
+                "traffic": {
+                    "type": "text"
+                },
+                "roundService": {
+                    "type": "text"
+                },
+                "rentWay": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}

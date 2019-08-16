@@ -1,0 +1,11 @@
+#避免和监控中心端口冲突，设为8081端口访问
+server:
+  port: 8084
+
+dubbo:
+  application:
+    name: goods-service-consumer
+  registry:
+    address: zookeeper://10.4.9.20:2181
+  monitor:
+    protocol: registry
