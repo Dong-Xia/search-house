@@ -43,4 +43,9 @@ public interface IHouseService extends IService<House> {
      * @param houseId
      */
     void deleteSingleDataFromEs(int houseId);
+
+    /**
+     * 搜索引擎查询数据
+     */
+/*    void searchData();*/
 }

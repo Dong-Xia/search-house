@@ -22,7 +22,8 @@ import java.util.Objects;
  * <b>@date：</b>2019/8/9 10:40<br/>
  */
 @Configuration
-//@PropertySource(value="classpath:/application.properties",encoding = "UTF-8")
+// 读取配置文件，用于测试使用
+@PropertySource(value="classpath:/application.properties",encoding = "UTF-8")
 public class ElasticSearchConfig {
     private static final int ADDRESS_LENGTH = 2;
     private static final String HTTP_SCHEME = "http";

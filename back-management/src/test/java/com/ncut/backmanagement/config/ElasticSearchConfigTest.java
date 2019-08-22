@@ -1,5 +1,7 @@
 package com.ncut.backmanagement.config;
 
+import com.ncut.backmanagement.domain.House;
+import com.ncut.backmanagement.domain.HouseSearch;
 import org.apache.http.HttpEntity;
 import org.apache.http.entity.ContentType;
 import org.apache.http.nio.entity.NStringEntity;
@@ -9,8 +11,7 @@ import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.get.*;
 import org.elasticsearch.action.index.IndexRequest;
-import org.elasticsearch.action.search.SearchRequest;
-import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.action.search.*;
 import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.client.Response;
 import org.elasticsearch.client.RestClientBuilder;
@@ -19,6 +20,8 @@ import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.Strings;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.common.xcontent.XContentParser;
+import org.elasticsearch.index.query.BoolQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.rest.RestStatus;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
@@ -109,7 +112,7 @@ public class ElasticSearchConfigTest {
     }
 
     /**
-     * 批量获取数据
+     * 批量获取数据（只返回数据部分需要的字段）
      */
     @Test
     public void getMultiData() {
@@ -118,7 +121,7 @@ public class ElasticSearchConfigTest {
         RestHighLevelClient restHighLevelClient = annotationConfigApplicationContext.getBean(RestHighLevelClient.class);
         System.out.println(restHighLevelClient);
 
-        // 条件过滤
+        //只返回数据部分需要的字段
         String[] includes = new String[] {"name", "author"};
         String[] excludes = Strings.EMPTY_ARRAY;
         FetchSourceContext fetchSourceContext = new FetchSourceContext(true, includes, excludes);
@@ -258,16 +261,14 @@ public class ElasticSearchConfigTest {
         RestHighLevelClient restHighLevelClient = annotationConfigApplicationContext.getBean(RestHighLevelClient.class);
 
         // UpdateRequest更新数据类
-        UpdateRequest updateRequest = new UpdateRequest("book","novel","9");
+        UpdateRequest updateRequest = new UpdateRequest("search_house","house","25");
         Map<String, Object> map = new HashMap<>();
-        map.put("price", 7000);
-        map.put("name", "独孤九剑传承者，嵩山派掌门");
+        map.put("layoutDesc", "景色美丽");
         updateRequest.doc(map);
 
-        UpdateRequest updateRequest1 = new UpdateRequest("book","novel","10");
+        UpdateRequest updateRequest1 = new UpdateRequest("search_house","house","15");
         Map<String, Object> map1 = new HashMap<>();
-        map1.put("price", 6666);
-        map1.put("name", "古墓派玉女心经修炼者，童年阴影");
+        map1.put("title", "古墓派万年老宅");
         updateRequest1.doc(map1);
 
         BulkRequest bulkRequest = new BulkRequest();
@@ -300,6 +301,82 @@ public class ElasticSearchConfigTest {
 
         try {
             restHighLevelClient.bulk(bulkRequest);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 批量搜索数据(多条件查询)
+     */
+    @Test
+    public void searchMutiData() {
+        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(ElasticSearchConfig.class);
+        RestHighLevelClient restHighLevelClient = annotationConfigApplicationContext.getBean(RestHighLevelClient.class);
+
+        // 创建一个容纳多查询条件的空MultiSearchRequest
+        MultiSearchRequest multiSearchRequest = new MultiSearchRequest();
+        SearchRequest searchRequest = new SearchRequest("search_house");
+        searchRequest.types("house");
+        //查询条件设置
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        searchSourceBuilder.query(QueryBuilders.matchQuery("title","一期"));
+        searchRequest.source(searchSourceBuilder);
+        multiSearchRequest.add(searchRequest);
+
+        // 创建第二个查询条件(和第一个查询条件是或的关系，即把满足第一个查询和第二个查询条件的都搜索出来)
+        SearchRequest searchRequest1 = new SearchRequest("search_house");
+        searchRequest1.types("house");
+        SearchSourceBuilder searchSourceBuilder1 = new SearchSourceBuilder();
+        searchSourceBuilder1.query(QueryBuilders.matchQuery("subwayLineName","10号线"));
+        searchRequest1.source(searchSourceBuilder1);
+        multiSearchRequest.add(searchRequest1);
+
+        try {
+            MultiSearchResponse items = restHighLevelClient.multiSearch(multiSearchRequest);
+            MultiSearchResponse.Item[] responses = items.getResponses();
+            for(MultiSearchResponse.Item item : responses){
+                System.out.println(item.getResponse().toString());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 按搜索条件搜索数据
+     */
+    @Test
+    public void searchDataForTerm() {
+        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(ElasticSearchConfig.class);
+        RestHighLevelClient restHighLevelClient = annotationConfigApplicationContext.getBean(RestHighLevelClient.class);
+
+        //只返回数据部分需要的字段
+        String[] includes = new String[] {"title", "layoutDesc","subwayLineName","createTime"};
+        String[] excludes = Strings.EMPTY_ARRAY;
+        FetchSourceContext fetchSourceContext = new FetchSourceContext(true, includes, excludes);
+
+        SearchRequest searchRequest = new SearchRequest("search_house");
+        searchRequest.types("house");
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
+        // 设置过滤条件
+        boolQueryBuilder.filter(QueryBuilders.termQuery("subwayLineName","13号线"));
+        boolQueryBuilder.filter(QueryBuilders.matchQuery("title","一期"));
+        boolQueryBuilder.filter(QueryBuilders.matchQuery("layoutDesc","景色宜人"));
+
+        // 关键：设置搜索用的关键词在哪些字段中去搜，因为用户搜索的时候是随便输入的，这样在实现的时候需要指定覆盖哪些字段
+        // 参数：text为前台页面用户输入的关键词
+        boolQueryBuilder.must(QueryBuilders.multiMatchQuery("13号线","title","subwayLineName"));
+        searchSourceBuilder.query(boolQueryBuilder).fetchSource(fetchSourceContext).sort("createTime");
+        searchRequest.source(searchSourceBuilder);
+
+        try {
+            SearchResponse search = restHighLevelClient.search(searchRequest);
+            if (search.status() != RestStatus.OK){
+                System.out.println("查询失败！");
+            }
+                System.out.println(search.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }
