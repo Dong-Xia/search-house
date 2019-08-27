@@ -352,7 +352,7 @@ public class ElasticSearchConfigTest {
         RestHighLevelClient restHighLevelClient = annotationConfigApplicationContext.getBean(RestHighLevelClient.class);
 
         //只返回数据部分需要的字段
-        String[] includes = new String[] {"title", "layoutDesc","subwayLineName","createTime"};
+        String[] includes = new String[] {"id","title", "layoutDesc","subwayLineName","createTime"};
         String[] excludes = Strings.EMPTY_ARRAY;
         FetchSourceContext fetchSourceContext = new FetchSourceContext(true, includes, excludes);
 
@@ -363,7 +363,7 @@ public class ElasticSearchConfigTest {
         // 设置过滤条件
         boolQueryBuilder.filter(QueryBuilders.termQuery("subwayLineName","13号线"));
         boolQueryBuilder.filter(QueryBuilders.matchQuery("title","一期"));
-        boolQueryBuilder.filter(QueryBuilders.matchQuery("layoutDesc","景色宜人"));
+        //boolQueryBuilder.filter(QueryBuilders.matchQuery("layoutDesc","景色宜人"));
 
         // 关键：设置搜索用的关键词在哪些字段中去搜，因为用户搜索的时候是随便输入的，这样在实现的时候需要指定覆盖哪些字段
         // 参数：text为前台页面用户输入的关键词

@@ -11,6 +11,14 @@ import lombok.Data;
  */
 @Data
 public class HouseSearch {
-    private String price;
     private String keyWord;
+    private String cityEnName;
+    private String regionEnName;
+    private String priceBlock;
+    private String areaBlock;
+    private int room;
+    private int direction;
+    private int rentWay = -1;
+    private String orderBy = "lastUpdateTime";
+    private String orderDirection = "desc";
 }

@@ -2,8 +2,10 @@ package com.ncut.backmanagement.service;
 
 
 import com.baomidou.mybatisplus.service.IService;
+import com.ncut.backmanagement.common.ServiceMultiResult;
 import com.ncut.backmanagement.domain.House;
 import com.ncut.backmanagement.domain.HouseDetail;
+import com.ncut.backmanagement.domain.HouseSearch;
 
 import java.util.List;
 import java.util.Map;
@@ -47,5 +49,5 @@ public interface IHouseService extends IService<House> {
     /**
      * 搜索引擎查询数据
      */
-/*    void searchData();*/
+    ServiceMultiResult<Integer> searchData(HouseSearch houseSearch);
 }

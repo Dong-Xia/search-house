@@ -1,9 +1,9 @@
 package com.ncut.backmanagement.service;
 
-import com.ncut.backmanagement.domain.House;
+import com.ncut.backmanagement.common.ServiceMultiResult;
+import com.ncut.backmanagement.common.VO.HouseDTO;
 import com.ncut.backmanagement.domain.HouseSearch;
 
-import java.util.List;
 
 /**
  * <b>System：</b>ncc<br/>
@@ -15,5 +15,5 @@ import java.util.List;
 public interface SearchDataService {
 
     // 根据关键词搜索数据
-    List<House> searchData(HouseSearch SearchKeyWord);
+    ServiceMultiResult<HouseDTO> searchData(HouseSearch houseSearch);
 }
