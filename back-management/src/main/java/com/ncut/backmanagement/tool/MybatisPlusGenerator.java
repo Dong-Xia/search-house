@@ -17,7 +17,7 @@ public class MybatisPlusGenerator {
     public static void main(String[] args) {
         String packageName = "com.ncut.backmanagement.servcie";
         boolean serviceNameStartWithI = true;//user -> UserService, 设置成true: user -> IUserService
-        String[] tables = {"house_tag"};
+        String[] tables = {"house_picture","house_subscribe","house_tag","subway","role","subway_station","support_address","user"};
         generateByTables(serviceNameStartWithI, packageName, tables);
     }
 

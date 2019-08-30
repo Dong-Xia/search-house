@@ -5,10 +5,9 @@ import com.ncut.backmanagement.common.VO.HouseDTO;
 import com.ncut.backmanagement.common.VO.HouseDetailDTO;
 import com.ncut.backmanagement.dao.HouseDetailMapper;
 import com.ncut.backmanagement.dao.HouseMapper;
-import com.ncut.backmanagement.dao.HouseTagMapper;
 import com.ncut.backmanagement.domain.House;
 import com.ncut.backmanagement.domain.HouseDetail;
-import com.ncut.backmanagement.domain.HouseSearch;
+import com.ncut.backmanagement.domain.RentSearch;
 import com.ncut.backmanagement.service.IHouseService;
 import com.ncut.backmanagement.service.SearchDataService;
 import org.modelmapper.ModelMapper;
@@ -45,9 +44,12 @@ public class SearchDataServiceImpl implements SearchDataService {
      * @return
      */
     @Override
-    public ServiceMultiResult<HouseDTO> searchData(HouseSearch houseSearch) {
+    public ServiceMultiResult<HouseDTO> searchData(RentSearch houseSearch) {
+        if(StringUtils.isEmpty(houseSearch.getKeywords())){
+            houseSearch.setKeywords("一期");
+        }
         // 1、当用户没有输入和选择搜索相关的功能时，则不走搜索引擎，直接查询数据库，进行数据的返回
-        if (StringUtils.isEmpty(houseSearch.getKeyWord())) {
+        if (StringUtils.isEmpty(houseSearch.getKeywords())) {
 
         }else{
         // 2、当选择了搜索的功能，则先走搜索引擎，在搜索引擎中查到id后，再根据id去数据库中查询数据返回

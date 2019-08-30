@@ -1,6 +1,5 @@
 package com.ncut.backmanagement.service.impl;
 
-import com.google.common.primitives.Longs;
 import com.ncut.backmanagement.common.HouseIndexKey;
 import com.ncut.backmanagement.common.RentValueBlock;
 import com.ncut.backmanagement.common.ServiceMultiResult;
@@ -8,7 +7,7 @@ import com.ncut.backmanagement.dao.HouseMapper;
 import com.ncut.backmanagement.domain.House;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.ncut.backmanagement.domain.HouseDetail;
-import com.ncut.backmanagement.domain.HouseSearch;
+import com.ncut.backmanagement.domain.RentSearch;
 import com.ncut.backmanagement.service.IHouseService;
 import org.apache.commons.lang3.StringUtils;
 import org.elasticsearch.action.bulk.BulkRequest;
@@ -140,7 +139,7 @@ public class HouseServiceImpl extends ServiceImpl<HouseMapper, House> implements
     }
 
     @Override
-    public ServiceMultiResult<Integer> searchData(HouseSearch houseSearch) {
+    public ServiceMultiResult<Integer> searchData(RentSearch houseSearch) {
         //只返回指定需要的字段
         String[] includes = new String[] {"id"};
         String[] excludes = Strings.EMPTY_ARRAY;
@@ -153,7 +152,7 @@ public class HouseServiceImpl extends ServiceImpl<HouseMapper, House> implements
 
         // 关键：设置搜索用的关键词在哪些字段中去搜，因为用户搜索的时候是随便输入的，这样在实现的时候需要指定覆盖哪些字段
         // 参数：text为前台页面用户输入的关键词
-        boolQueryBuilder.must(QueryBuilders.multiMatchQuery(houseSearch.getKeyWord(),
+        boolQueryBuilder.must(QueryBuilders.multiMatchQuery(houseSearch.getKeywords(),
                 HouseIndexKey.TITLE,
                 HouseIndexKey.TRAFFIC,
                 HouseIndexKey.DISTRICT,

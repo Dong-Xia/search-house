@@ -2,7 +2,7 @@ package com.ncut.backmanagement.controller;
 
 import com.ncut.backmanagement.common.ServiceMultiResult;
 import com.ncut.backmanagement.common.VO.HouseDTO;
-import com.ncut.backmanagement.domain.HouseSearch;
+import com.ncut.backmanagement.domain.RentSearch;
 import com.ncut.backmanagement.service.DataSynService;
 import com.ncut.backmanagement.service.SearchDataService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -68,7 +68,7 @@ public class HouseDataHandleController {
      */
     @RequestMapping(value = "/searchData",method = RequestMethod.POST)
     @ResponseBody
-    public ServiceMultiResult<HouseDTO> searchData(HouseSearch houseSearch){
+    public ServiceMultiResult<HouseDTO> searchData(RentSearch houseSearch){
         return searchDataService.searchData(houseSearch);
     }
 }

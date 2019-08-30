@@ -2,7 +2,7 @@ package com.ncut.backmanagement.service;
 
 import com.ncut.backmanagement.common.ServiceMultiResult;
 import com.ncut.backmanagement.common.VO.HouseDTO;
-import com.ncut.backmanagement.domain.HouseSearch;
+import com.ncut.backmanagement.domain.RentSearch;
 
 
 /**
@@ -15,5 +15,5 @@ import com.ncut.backmanagement.domain.HouseSearch;
 public interface SearchDataService {
 
     // 根据关键词搜索数据
-    ServiceMultiResult<HouseDTO> searchData(HouseSearch houseSearch);
+    ServiceMultiResult<HouseDTO> searchData(RentSearch houseSearch);
 }
