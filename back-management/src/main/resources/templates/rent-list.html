@@ -437,7 +437,7 @@
             delay: 300, // 延迟加载300ms
             source: function (request, response) { // 数据源
                 $.ajax({
-                    url: '/rent/house/autocomplete?prefix=' + request.term,
+                    url: '/goodsFront/autocomplete?prefix=' + request.term,
                     success: function (res) {
                         if (res.code === 200) {
                             response(res.data);

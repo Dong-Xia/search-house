@@ -1,5 +1,6 @@
 package com.ncut.backmanagement.domain;
 
+import com.ncut.backmanagement.common.HouseSuggest;
 import lombok.Data;
 
 import java.util.Date;
@@ -81,7 +82,7 @@ public class HouseIndexTemplate {
          */
         private Integer parlour;
 
-/*        private List<HouseSuggest> suggest;
+        private List<HouseSuggest> suggest;
 
-        private BaiduMapLocation location;*/
+        /*        private BaiduMapLocation location;*/
     }

@@ -5,6 +5,10 @@ import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestClientBuilder;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.client.transport.TransportClient;
+import org.elasticsearch.common.settings.Settings;
+import org.elasticsearch.common.transport.TransportAddress;
+import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +16,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.ui.ModelMap;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.Arrays;
 import java.util.Objects;
 
@@ -35,6 +41,8 @@ public class ElasticSearchConfig {
     @Value("${elasticsearch.ip}")
     String[] ipAddress;
 
+    @Value("${spring.data.elasticsearch.cluster-name}")
+    String esClusterName;
     @Bean
     public RestClientBuilder restClientBuilder() {
         HttpHost[] hosts = Arrays.stream(ipAddress)
@@ -62,5 +70,20 @@ public class ElasticSearchConfig {
         } else {
             return null;
         }
+    }
+
+    @Bean
+    public TransportClient transportClient(){
+        //设置集群名称
+        Settings settings = Settings.builder().put("cluster.name", esClusterName).build();// 集群名
+        //创建client
+        TransportClient client = null;
+        try {
+            client  = new PreBuiltTransportClient(settings)
+                    .addTransportAddress(new TransportAddress(InetAddress.getByName("127.0.0.1"), 9300));
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+        return client;
     }
 }

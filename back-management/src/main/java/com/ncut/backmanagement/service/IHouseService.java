@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.service.IService;
 import com.ncut.backmanagement.common.ServiceMultiResult;
 import com.ncut.backmanagement.domain.House;
 import com.ncut.backmanagement.domain.HouseDetail;
+import com.ncut.backmanagement.domain.HouseIndexTemplate;
 import com.ncut.backmanagement.domain.RentSearch;
 
 import java.util.List;
@@ -37,7 +38,7 @@ public interface IHouseService extends IService<House> {
      * @param s
      * @param houseId
      */
-    void updateSingleDataToEs(String s, int houseId);
+    void updateSingleDataToEs(HouseIndexTemplate s, int houseId);
 
     /**
      *

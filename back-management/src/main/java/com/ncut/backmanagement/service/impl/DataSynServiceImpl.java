@@ -70,8 +70,7 @@ public class DataSynServiceImpl implements DataSynService {
         ModelMapper modelMapper = new ModelMapper();
         modelMapper.map(house,houseIndexTemplate);
         modelMapper.map(houseDetail,houseIndexTemplate);
-        JSON parse = JSONUtil.parse(houseIndexTemplate);
-        iHouseService.updateSingleDataToEs(parse.toString(),houseId);
+        iHouseService.updateSingleDataToEs(houseIndexTemplate,houseId);
     }
 
     @Override

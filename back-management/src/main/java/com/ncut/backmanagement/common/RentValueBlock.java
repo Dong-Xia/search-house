@@ -6,7 +6,7 @@ import com.google.common.collect.ImmutableMap;
 
 /**
  * 带区间的常用数值定义
- * Created by 瓦力.
+ * Created by xiadong.
  */
 public class RentValueBlock {
     /**

@@ -2,7 +2,7 @@ package com.ncut.backmanagement.common;
 
 /**
  * 服务接口通用结构
- * Created by 瓦力.
+ * Created by xiadong.
  */
 public class ServiceResult<T> {
     private boolean success;

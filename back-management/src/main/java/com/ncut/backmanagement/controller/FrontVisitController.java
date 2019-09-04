@@ -1,5 +1,6 @@
 package com.ncut.backmanagement.controller;
 
+import com.ncut.backmanagement.common.ApiResponse;
 import com.ncut.backmanagement.common.RentValueBlock;
 import com.ncut.backmanagement.common.ServiceMultiResult;
 import com.ncut.backmanagement.common.ServiceResult;
@@ -7,18 +8,15 @@ import com.ncut.backmanagement.common.VO.HouseDTO;
 import com.ncut.backmanagement.common.VO.SupportAddressDTO;
 import com.ncut.backmanagement.domain.RentSearch;
 import com.ncut.backmanagement.service.IAddressService;
-import com.ncut.backmanagement.service.IHouseService;
 import com.ncut.backmanagement.service.SearchDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <b>System：</b>ncc<br/>
@@ -82,5 +80,19 @@ public class FrontVisitController {
             return "rent-list";
         }
         return null;
+    }
+
+    @GetMapping(value = "/autocomplete")
+    // 注明返回数据
+    @ResponseBody
+    public ApiResponse autocomplete(@RequestParam("prefix") String prefix){
+        if (prefix.isEmpty()) {
+            return ApiResponse.ofStatus(ApiResponse.Status.BAD_REQUEST);
+        }
+/*        List<String> result = new ArrayList<>();
+        result.add("中国共产党好");
+        result.add("中国共产党万岁");*/
+        ServiceResult<List<String>> result = houseService.suggest(prefix);
+        return ApiResponse.ofSuccess(result.getResult());
     }
 }

@@ -13,7 +13,7 @@ import com.ncut.backmanagement.domain.SupportAddress;
 
 /**
  * 地址服务接口
- * Created by 瓦力.
+ * Created by xiadong.
  */
 public interface IAddressService {
     /**

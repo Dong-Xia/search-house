@@ -1,8 +1,11 @@
 package com.ncut.backmanagement.service;
 
 import com.ncut.backmanagement.common.ServiceMultiResult;
+import com.ncut.backmanagement.common.ServiceResult;
 import com.ncut.backmanagement.common.VO.HouseDTO;
 import com.ncut.backmanagement.domain.RentSearch;
+
+import java.util.List;
 
 
 /**
@@ -14,6 +17,15 @@ import com.ncut.backmanagement.domain.RentSearch;
  */
 public interface SearchDataService {
 
-    // 根据关键词搜索数据
+    /**
+     * 根据关键词搜索数据
+     * @param houseSearch
+     * @return
+     */
     ServiceMultiResult<HouseDTO> searchData(RentSearch houseSearch);
+
+    /**
+     * 获取补全建议关键词
+     */
+    ServiceResult<List<String>> suggest(String prefix);
 }

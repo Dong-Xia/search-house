@@ -1,24 +1,42 @@
 package com.ncut.backmanagement.service.impl;
 
+import com.google.common.collect.Lists;
+import com.ncut.backmanagement.common.HouseSuggest;
 import com.ncut.backmanagement.common.ServiceMultiResult;
+import com.ncut.backmanagement.common.ServiceResult;
 import com.ncut.backmanagement.common.VO.HouseDTO;
 import com.ncut.backmanagement.common.VO.HouseDetailDTO;
 import com.ncut.backmanagement.dao.HouseDetailMapper;
 import com.ncut.backmanagement.dao.HouseMapper;
 import com.ncut.backmanagement.domain.House;
 import com.ncut.backmanagement.domain.HouseDetail;
+import com.ncut.backmanagement.domain.HouseIndexTemplate;
 import com.ncut.backmanagement.domain.RentSearch;
 import com.ncut.backmanagement.service.IHouseService;
 import com.ncut.backmanagement.service.SearchDataService;
+import org.elasticsearch.action.admin.indices.analyze.AnalyzeAction;
+import org.elasticsearch.action.admin.indices.analyze.AnalyzeRequestBuilder;
+import org.elasticsearch.action.admin.indices.analyze.AnalyzeResponse;
+import org.elasticsearch.action.index.IndexRequest;
+import org.elasticsearch.action.search.SearchRequest;
+import org.elasticsearch.action.search.SearchRequestBuilder;
+import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.client.transport.TransportClient;
+import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.search.suggest.Suggest;
+import org.elasticsearch.search.suggest.SuggestBuilder;
+import org.elasticsearch.search.suggest.SuggestBuilders;
+import org.elasticsearch.search.suggest.completion.CompletionSuggestion;
+import org.elasticsearch.search.suggest.completion.CompletionSuggestionBuilder;
 import org.modelmapper.ModelMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <b>System：</b>ncc<br/>
@@ -29,7 +47,7 @@ import java.util.Map;
  */
 @Service
 public class SearchDataServiceImpl implements SearchDataService {
-
+    private static final Logger logger = LoggerFactory.getLogger(SearchDataServiceImpl.class);
     @Autowired
     private IHouseService iHouseService;
     @Autowired
@@ -38,6 +56,11 @@ public class SearchDataServiceImpl implements SearchDataService {
     private HouseTagMapper houseTagMapper;*/
     @Autowired
     private HouseDetailMapper houseDetailMapper;
+
+    @Autowired
+    private RestHighLevelClient restHighLevelClient;
+    @Autowired
+    private TransportClient esClient;
     /**
      * 该方法实现需结合elasticsearch 和 mysql
      * @param houseSearch
@@ -64,6 +87,58 @@ public class SearchDataServiceImpl implements SearchDataService {
 
         return null;
     }
+
+    /**
+     * 自动补全搜索
+     * @param prefix
+     * @return
+     */
+    @Override
+    public ServiceResult<List<String>> suggest(String prefix) {
+        CompletionSuggestionBuilder suggestion = SuggestBuilders.completionSuggestion("suggest").prefix(prefix).size(5);
+
+        SuggestBuilder suggestBuilder = new SuggestBuilder();
+        suggestBuilder.addSuggestion("autocomplete", suggestion);
+
+        SearchRequestBuilder searchRequest = esClient.prepareSearch("search_house")
+                .setTypes("house").suggest(suggestBuilder);
+
+        SearchResponse response = searchRequest.get();
+        Suggest suggest = response.getSuggest();
+        if(suggest == null){
+            return ServiceResult.of(new ArrayList<>());
+        }
+        Suggest.Suggestion result = suggest.getSuggestion("autocomplete");
+
+        int maxSuggest = 0;
+        Set<String> suggestSet = new HashSet<>();
+
+        for (Object term : result.getEntries()) {
+            if (term instanceof CompletionSuggestion.Entry) {
+                CompletionSuggestion.Entry item = (CompletionSuggestion.Entry) term;
+
+                if (item.getOptions().isEmpty()) {
+                    continue;
+                }
+
+                for (CompletionSuggestion.Entry.Option option : item.getOptions()) {
+                    String tip = option.getText().string();
+                    if (suggestSet.contains(tip)) {
+                        continue;
+                    }
+                    suggestSet.add(tip);
+                    maxSuggest++;
+                }
+            }
+
+            if (maxSuggest > 5) {
+                break;
+            }
+        }
+        List<String> suggests = Lists.newArrayList(suggestSet.toArray(new String[]{}));
+        return ServiceResult.of(suggests);
+    }
+
 
     /**
      * 根据房子id查询数据库中数据
